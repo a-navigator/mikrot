@@ -5,7 +5,7 @@
 :local sheduleName [/system scheduler find name=$listName && on-event=$listName];
 :local scriptName [/system script find name=$listName];
 
-/tool fetch url="sftp://192.168.14.25/home/a.bogdanov/ansible/files/banned-ip_update.rsc" user=a.bogdanov password=Aa123456Aa dst-path=banned-ip_update.rsc
+/tool fetch url="https://github.com/a-navigator/mikrot/blob/c04673ecd82785da4f5eae754fff0e1baca08238/banned-ip_update.rsc" user=a.bogdanov password=Aa123456Aa dst-path=banned-ip_update.rsc
 :delay 10s;
 
 /ip firewall address-list remove numbers=[find list=$listName];
