@@ -1,4 +1,5 @@
 /ip firewall address-list
+remove numbers=[find list=banned_users]
 add list=banned_users address=174.139.70.194
 add list=banned_users address=176.32.181.62
 add list=banned_users address=20.36.130.69
