@@ -7,4 +7,5 @@ add list=banned_users address=138.255.240.98
 add list=banned_users address=45.125.65.74
 add list=banned_users address=143.198.119.193
 add list=banned_users address=80.94.93.26
-:log info "banned_users: 10 addresses total, date update: 23.07.2021"
+add list=banned_users address=185.170.213.226
+:log info "banned_users: 10 addresses total, date update: 10.08.2021"
