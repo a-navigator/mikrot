@@ -1,4 +1,3 @@
-/ip firewall filter print;
 :local listName "banned_users";
 :local ruleName [/ip firewall filter find src-address-list=$listName && chain=input && action=drop];
 #:log info "Checking filter rule...";
